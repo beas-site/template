@@ -9,6 +9,12 @@ h2 {
   background-color: #00004d;
   color: #ffffff;
 }
+/* Style the h3 elemetns */
+h3 {
+  padding: 20px;
+  background-color:#ccffff;
+  color: #000000;
+}
 /* Style the link to the dashboard */
 a#dashBoardlink:link {
   float: right;
