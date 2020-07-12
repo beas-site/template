@@ -4,9 +4,9 @@ body {
 }
 
 h2 {
+  padding: 20px;
   background-color: #00004d;
   color: #ffffff;
-  padding: 20px;
 }
 
 .filterDiv {
