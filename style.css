@@ -1,18 +1,20 @@
+/* Style the body */
 body {
   margin: 0;
   font-family: sans-serif;
 }
-
+/* Style the h2 elemetns */
 h2 {
   padding: 20px;
   background-color: #00004d;
   color: #ffffff;
 }
-
+/* Style the link to the dashboard */
 a#dashBoardlink:link {color:#ff0000;}
 a#dashBoardlink:visited {color:#0000ff;}
 a#dashBoardlink:hover {background:#66ff66;}
 
+/* Style the class filterDiv */
 .filterDiv {
   float: left;
   background-color: #2196F3;
@@ -24,10 +26,12 @@ a#dashBoardlink:hover {background:#66ff66;}
   display: none;
 }
 
+/* Style the class show */
 .show {
   display: block;
 }
 
+/* Style the class container */
 .container {
   margin-top: 20px;
   overflow: hidden;
@@ -42,10 +46,12 @@ a#dashBoardlink:hover {background:#66ff66;}
   cursor: pointer;
 }
 
+/* Style the buttons */
 .btn:hover {
   background-color: #ddd;
 }
 
+/* Style the active button*/
 .btn.active {
   background-color: #666;
   color: white;
