@@ -1,8 +1,3 @@
-function setup() {
-createCanvas(400, 400);
-}
-
-
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
