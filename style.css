@@ -40,7 +40,7 @@ a#dashBoardlink:hover {
   line-height: 100px;
   text-align: center;
   margin: 2px;
-  display: none;
+  /*display: none; */
 }
 
 /* Style the class show */
