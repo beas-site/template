@@ -33,13 +33,13 @@ a#dashBoardlink:hover {
 
 /* Style the class filterDiv */
 .filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: white;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
+  /*float: left;*/
+  /*background-color: #2196F3;*/
+  color: black; /* was white */
+  /*width: 100px;*/
+  /*line-height: 100px;*/
+  /*text-align: center;*/
+  /*margin: 2px;*/
   display: none;/* Hidden by default */
 }
 /* The "show" class is added to the filtered elements */
