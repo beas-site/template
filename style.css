@@ -36,6 +36,10 @@ a#dashBoardlink:hover {
   background-color:#ccffff;
   color: #000000;
 }
+/* Style the filterlinks */
+a.filterlinks:link {
+  color: #ffffff;
+}
 
 /* Style the class filterDiv */
 .filterDiv {
