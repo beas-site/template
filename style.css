@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 .skip-link {
-  position: absolute;
+  position: relative;
   top: -3em;
   background: #fff;
   color: black;
