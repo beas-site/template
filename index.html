@@ -13,63 +13,30 @@
 </head>
 
 <body>
-  <!--Even uit<a href="#db">Direct naar het dashboard van het handboek</a>-->
-  <!-- Start container manualAll-->
-  <div id="manualAll">
-    <!-- Word of welkom -->
-    <h2>Welkom bij het handboek...</h2>
-    <p>Dit is de een paragraaf van het handboek</p>
-    <p>Dit is de een paragraaf van het handboek</p>
-    <p>Dit is de een paragraaf van het handboek</p>
-    <p>Dit is de een paragraaf van het handboek</p>
-    <!-- End word of welkom -->
-<!-- Start Dasboard -->
-    <!-- h2 element with text dashboard -->
-  <h2 id="db">Dashboard</h2>
-<!-- Start container with buttons to filter on classes-->    
+  <h2>Filter DIV Elements</h2>
+
 <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')">Handboek</button>
-  <button class="btn" onclick="filterSelection('mvl')"> Mvl</button>
-  <button class="btn" onclick="filterSelection('zbh')"> Zbh</button>
-  <button class="btn" onclick="filterSelection('sc')"> Sc</button>
-  <button class="btn" onclick="filterSelection('ah')"> Ah</button>
-</div>
-<!-- End of container with buttons to filter -->
-
-<!-- Start container with filterclasses -->
-<div class="container">
-  <div class="filterDiv mvl">
-    <h2>Instruction 1 wvl</h2>
-    <p>Paragraaf met instructies.</p>
-    <p>paragraaf met instructies.</p>
-  </div>
-  <div class="filterDiv ah">Orange</div>
-  <div class="filterDiv mvl">
-    <p>en nu dit doen</p>
-    <p>daarna dit ook nog</p>
-  </div>
-  <div class="filterDiv ah">Red</div>
-  <div class="filterDiv zbh">
-    <p>vergeet dit niet</p>
-  </div>
-  <div class="filterDiv ah">Blue</div>
-  <div class="filterDiv zbh">Soort 1</div>
-  <div class="filterDiv zbh">Soort 2</div>
-  <div class="filterDiv sc">Melon</div>
-  <div class="filterDiv sc">Kiwi</div>
-  <div class="filterDiv sc">Banana</div>
-  <div class="filterDiv sc">Lemon</div>
-  <div class="filterDiv zbh">Soort 3</div>
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
 </div>
 
 <div class="container">
-  <div class="filterDiv mvl">
-    <p>Automerk 4</p></div>
-  </div>
-<!--End of container manualAll--> 
-  </div>
-  
-<!--<script></script>-->
-
+  <div class="filterDiv cars">BMW</div>
+  <div class="filterDiv colors fruits">Orange</div>
+  <div class="filterDiv cars">Volvo</div>
+  <div class="filterDiv colors">Red</div>
+  <div class="filterDiv cars animals">Mustang</div>
+  <div class="filterDiv colors">Blue</div>
+  <div class="filterDiv animals">Cat</div>
+  <div class="filterDiv animals">Dog</div>
+  <div class="filterDiv fruits">Melon</div>
+  <div class="filterDiv fruits animals">Kiwi</div>
+  <div class="filterDiv fruits">Banana</div>
+  <div class="filterDiv fruits">Lemon</div>
+  <div class="filterDiv animals">Cow</div>
+</div>
 </body>
 </html>
