@@ -38,6 +38,7 @@ a#dashBoardlink:hover {
 }
 /* Style the filterlinks */
 a.filterlinks:link {
+  background-color: #00004d;
   color: #ffffff;
 }
 /* Style the filterlinks */
