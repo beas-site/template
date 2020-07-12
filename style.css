@@ -9,10 +9,7 @@ html, body {
   padding: 5px;
   background-color: #cae8ca;
   border: 2px solid #4CAF50;
-  color: black;
-  width: 40%;
-  float: right;
-  
+  color: black;  
 }
 .skip-link:focus {
   top: 0;
