@@ -10,9 +10,17 @@ h2 {
   color: #ffffff;
 }
 /* Style the link to the dashboard */
-a#dashBoardlink:link {color:#ff0000;}
-a#dashBoardlink:visited {color:#0000ff;}
-a#dashBoardlink:hover {background:#66ff66;}
+a#dashBoardlink:link {
+  color:#ff0000;
+}
+/* Style the visisted link to the dashboard */
+a#dashBoardlink:visited {
+  color:#0000ff;
+}
+/* Style the hover over from link to the dashboard */
+a#dashBoardlink:hover {
+  background:#66ff66;
+}
 
 /* Style the class filterDiv */
 .filterDiv {
