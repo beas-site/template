@@ -40,9 +40,9 @@ a#dashBoardlink:hover {
   line-height: 100px;
   text-align: center;
   margin: 2px;
-  display: none;
+  display: none;/* Hidden by default */
 }
-
+/* The "show" class is added to the filtered elements */
 /* Style the class show */
 .show {
   display: block;
@@ -64,14 +64,12 @@ a#dashBoardlink:hover {
   width: 100px;
   cursor: pointer;
 }
-
-/* Style the buttons */
+/* Add a background and color on mouse-over */
 .btn:hover {
   background-color:#ccffff;
   color: #000000;
 }
-
-/* Style the active button*/
+/* Add a background and color to the active button */
 .btn.active {
   background-color:#ff9900;
   color: #000000;
