@@ -58,10 +58,10 @@
   <button class="btn" onclick="filterSelection('Proces1')"><a class="filterlinks" href="#P1" target="_top"> Proces 1</a></button>
   <button class="btn" onclick="filterSelection('Proces2')"><a class="filterlinks" href="#P2" target="_top"> Proces 2</a></button>
   <button class="btn" onclick="filterSelection('Proces3')"><a class="filterlinks" href="#P3" target="_top"> Proces 3</a></button>
-  <button class="btn" onclick="filterSelection('rolA')"> Rol A</button>
-  <button class="btn" onclick="filterSelection('rolB')"> Rol B</button>
-  <button class="btn" onclick="filterSelection('rolC')"> Rol C</button>
-  <button class="btn" onclick="filterSelection('rolD')"> Rol D</button>
+  <button class="btn" onclick="filterSelection('rolA')"><a class="filterlinks" href="#rol_A" target="_top"> Rol A</a></button>
+  <button class="btn" onclick="filterSelection('rolB')"><a class="filterlinks" href="#rol_B" target="_top"> Rol B</a></button>
+  <button class="btn" onclick="filterSelection('rolC')"><a class="filterlinks" href="#rol_C" target="_top"> Rol C</a></button>
+  <button class="btn" onclick="filterSelection('rolD')"><a class="filterlinks" href="#rol_D" target="_top"> Rol D</a></button>
 </div>
 
 <div class="container">
@@ -81,16 +81,19 @@
   <div class="filterDiv Proces3 rolC">een instructie voor rolC in Proces3</div>
   <div class="filterDiv Proces3 rolD">een instructie voor rolD in Proces3</div>
   <div class="filterDiv rolA">
-    <h3>Een taakomschrijving voor rol A</h3>
+    <h3 id="rol_A">Een taakomschrijving voor rol A</h3>
     <p>een instructie voor rol A bij deze taakomschrijving</p></div>
   <div class="filterDiv rolD rolC">een instructie voor rol C en rol D</div>
   <div class="filterDiv rolA">een instructie voor rol A</div>
-  <div class="filterDiv rolD">een instructie voor rol D</div>
+  <div class="filterDiv rolD"><h3 id="rol_D">Een taakomschrijving voor rol D</h3>
+    <p>een instructie voor rol D bij deze taakomschrijving</p></div>
   <div class="filterDiv rolA rolB">een instructie voor rol A en rol B</div>
   <div class="filterDiv rolD">een instructie voor rol D</div>
+  <div class="filterDiv rolB"><h3 id="rol_B">Een taakomschrijving voor rol B</h3>
+    <p>een instructie voor rol B bij deze taakomschrijving</p></div>
   <div class="filterDiv rolB">een instructie voor rol B</div>
-  <div class="filterDiv rolB">een instructie voor rol B</div>
-  <div class="filterDiv rolC">een instructie voor rol C</div>
+  <div class="filterDiv rolC"><h3 id="rol_C">Een taakomschrijving voor rol C</h3>
+    <p>een instructie voor rol C bij deze taakomschrijving</p></div>
   <div class="filterDiv rolC rolB">een instructie voor rol B en rol C</div>
   <div class="filterDiv rolC">een instructie voor rol C</div>
   <div class="filterDiv rolC">een instructie voor rol C</div>
