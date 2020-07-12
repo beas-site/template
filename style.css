@@ -40,7 +40,10 @@ a#dashBoardlink:hover {
 a.filterlinks:link {
   color: #ffffff;
 }
-
+/* Style the filterlinks */
+a.filterlinks:visited {
+  color: #ffffff;
+}
 /* Style the class filterDiv */
 .filterDiv {
   /*float: left;*/
