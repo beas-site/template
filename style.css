@@ -27,6 +27,7 @@ a#dashBoardlink:visited {
 /* Style the hover over from link to the dashboard */
 a#dashBoardlink:hover {
   background:#ccffff;
+  color: black;
 }
 
 /* Style the class filterDiv */
