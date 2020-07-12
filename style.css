@@ -22,11 +22,12 @@ a#dashBoardlink:link {
 
 /* Style the visisted link to the dashboard */
 a#dashBoardlink:visited {
-  color:#ff9900;
+  background-color:#ff9900;
+  color: #000000;
 }
 /* Style the hover over from link to the dashboard */
 a#dashBoardlink:hover {
-  background:#ccffff;
+  background-color:#ccffff;
   color: #000000;
 }
 
