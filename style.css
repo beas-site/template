@@ -21,35 +21,6 @@ h2 {
   padding: 18px;
   color: white;
   }
-/* Style the size of the dasboardnav */
-#dashboardnavsize {
-  width: 40%;
-  float: right;
-  }
-  
-/* Style the dashboardnav */  
-.dashboardnav {
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-.dashboardnav a {
-  /*float: right;*/
-  display: block;
-  color: black;
-  text-align: left;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-}
-
-.dashboardnav a:hover {
-  background-color: #ffff00;
-}
-
-.dashboardnav a.active {
-  border-bottom: 3px solid red;
-}
   
 .filterDiv {
   color: black;
