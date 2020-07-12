@@ -1,24 +1,3 @@
-/*.skip-link {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
-  display: block;
-}
-.skip-link:focus {
-  top: 0;
-}*/
-/* Style the h2 element 
-  
-h2 {
- background-color:#00004d;
-  padding: 18px;
-  color: white;
-  }
-  */
-
 .filterDiv {
   float: left;
   background-color: #2196F3;
