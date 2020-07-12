@@ -11,7 +11,7 @@ h2 {
 }
 /* Style the link to the dashboard */
 a#dashBoardlink:link {
-  background-color: #f44336;
+  background-color: #ffff00;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -32,7 +32,7 @@ a#dashBoardlink:hover {
 .filterDiv {
   float: left;
   background-color: #2196F3;
-  color: #ffffff;
+  color: #00004d;
   width: 100px;
   line-height: 100px;
   text-align: center;
