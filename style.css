@@ -45,6 +45,10 @@ a.filterlinks:link {
 a.filterlinks:visited {
   color: #ffffff;
 }
+/* Style the filterlinks */
+a.filterlinks:hover {
+  color: #ffffff;
+}
 /* Style the class filterDiv */
 .filterDiv {
   /*float: left;*/
