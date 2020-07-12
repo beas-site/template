@@ -22,7 +22,7 @@ a#dashBoardlink:link {
 
 /* Style the visisted link to the dashboard */
 a#dashBoardlink:visited {
-  color:#0000ff;
+  color:#ff9900;
 }
 /* Style the hover over from link to the dashboard */
 a#dashBoardlink:hover {
