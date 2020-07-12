@@ -6,6 +6,7 @@ html, body {
   position: absolute;
   top: -3em;
   background: #fff;
+  color: black;
 }
 .skip-link:focus {
   top: 0;
