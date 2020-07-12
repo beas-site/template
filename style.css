@@ -11,8 +11,14 @@ h2 {
 }
 /* Style the link to the dashboard */
 a#dashBoardlink:link {
-  color:#ff0000;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
 /* Style the visisted link to the dashboard */
 a#dashBoardlink:visited {
   color:#0000ff;
