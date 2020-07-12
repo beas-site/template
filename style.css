@@ -64,6 +64,7 @@ a#dashBoardlink:hover {
   width: 100px;
   line-height: 100px;
   text-align: center;
+  margin: 2px;
   cursor: pointer;
 }
 /* Add a background and color on mouse-over */
