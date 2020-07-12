@@ -9,9 +9,9 @@ h2 {
   color: #ffffff;
 }
 
-a#dashboardlink:link {color:#ff0000;}
-a#dashboardlink:visited {color:#0000ff;}
-a#dashboardlink:hover {background:#66ff66;}
+a#dashBoardlink:link {color:#ff0000;}
+a#dashBoardlink:visited {color:#0000ff;}
+a#dashBoardlink:hover {background:#66ff66;}
 
 .filterDiv {
   float: left;
