@@ -11,6 +11,7 @@ h2 {
 }
 /* Style the link to the dashboard */
 a#dashBoardlink:link {
+  float: right;
   background-color: #ffff00;
   color: white;
   padding: 14px 25px;
