@@ -2,7 +2,14 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+.skip-link {
+  position: absolute;
+  top: -3em;
+  background: #fff;
+}
+.skip-link:focus {
+  top: 0;
+}
 /* Style the h2 element */
   
 h2 {
