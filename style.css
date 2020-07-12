@@ -65,7 +65,8 @@ a#dashBoardlink:hover {
 
 /* Style the buttons */
 .btn:hover {
-  background-color: #ddd;
+  background-color:#ccffff;
+  color: #000000;
 }
 
 /* Style the active button*/
