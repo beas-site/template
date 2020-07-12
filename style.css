@@ -7,6 +7,9 @@ html, body {
   top: -3em;
   background: #fff;
   color: black;
+  width: 40%;
+  float: right;
+  
 }
 .skip-link:focus {
   top: 0;
